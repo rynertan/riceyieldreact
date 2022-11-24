@@ -49,10 +49,6 @@ const Homepage = () => {
         window.location.reload();
     }
     
-    const handleChange = event => {
-      setMessage(result);
-      console.log('value is:', result);
-    };
     return (
         
         <div className="homepage">
